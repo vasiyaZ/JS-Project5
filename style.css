@@ -5,7 +5,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    /* background-image: url(freepik__upload__15872.jpeg); */
     background: linear-gradient(rgba(0, 0, 0, 25%), rgba(0, 0, 0, 20%)), url(freepik__upload__15872.jpeg);
     background-size: cover;
 }
@@ -26,20 +25,24 @@ div.contbox {
     width: 40rem;
     justify-content: space-around;
 }
-.leftcont p{
+
+.leftcont p {
     font-size: 1.5rem;
 }
+
 #wordDisplay {
     font-size: 24px;
 }
 
 div#letters {
     width: 33rem;
+    margin: auto;
 }
 
 div#message {
     font-size: 1.3rem;
 }
+
 #letters button {
     margin: 5px;
     padding: 10px;
